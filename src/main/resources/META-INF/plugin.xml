@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>com.shahryar.nextjstoolkit</id>
+    <name>Next.js Toolkit</name>
+    <vendor email="shahryar.hn@gmail.com">Shahryar</vendor>
+
+    <description><![CDATA[
+        Create common Next.js App Router files from Project View and Editor context menus.
+        Includes TypeScript and JavaScript templates.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>JavaScript</depends>
+
+    <idea-version since-build="262" until-build="262.*"/>
+
+    <actions>
+        <group
+                id="com.shahryar.nextjstoolkit.NextJsTemplates"
+                class="com.shahryar.nextjstoolkit.actions.NextJsTemplatesGroup"
+                text="Next.js"
+                popup="true">
+            <add-to-group group-id="NewGroup" anchor="last"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </group>
+    </actions>
+</idea-plugin>
