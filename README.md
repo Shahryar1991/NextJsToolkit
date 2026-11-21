@@ -9,7 +9,8 @@ The submenu contains TypeScript and JavaScript template groups.
 
 ## Requirements
 
-- WebStorm 2026.2
+- WebStorm 2026.2+
+- IntelliJ IDEA 2026.2+
 - JDK 21
 - Gradle 9.0 or newer
 - Internet access for the first Gradle sync (to resolve the IDE and plugin dependencies)
